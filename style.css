@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+*{
+    font-family: 'Caveat', cursive;
+}
+h2::first-letter{
+    font-size: 2em;
+}
+li:nth-last-child(1){
+    background-color: grey;
+    /* border:1px solid red; */
+}
+li:nth-child(1){
+    background-color: yellow;
+}
+li:nth-child(odd){
+    /* background-color: yellow; */
+     border:1px dotted red; 
+
+}
+a::before{
+    content: '\1F449';
+}
+abbr::after{
+    content:" (" attr(title) ")";
+    font-style: oblique;
+}
+h2 + p{
+    text-indent: 2em;
+}
